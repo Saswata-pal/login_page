@@ -161,6 +161,5 @@ signup_btn = CTkButton(frame_signup, text="Signup", font=("", 15, "bold"), heigh
 signup_btn.grid(row=6, column=0, sticky="ne", pady=20, padx=35)
 
 main.mainloop()
-
-# Close dbb
+# Close db
 conn.close()
